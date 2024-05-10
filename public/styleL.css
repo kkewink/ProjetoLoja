@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho h1{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+#titulo{
+    text-transform: uppercase;
+    font: bolder;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    margin-right: 80px;
+}
+
+.container img{
+    margin-right: 85px;
+}
+
+.conta{
+    width: 20%;
+    font-weight: bolder;
+}
+.conta button{
+    width: 30%;
+    border: none;
+    height: 50px;
+    border-radius: 5px;
+}
+#login{
+    background-color: rgb(228, 63, 63);
+    color:white;
+    border: none;
+}
+#login:hover{
+    cursor: pointer;
+    color:white;
+}
+#login a{
+    text-decoration: none;
+    color:white;
+}
+
+.conta a{
+    text-decoration: none;
+    color: #000;
+}
+.conta input {
+    border: none;
+    border-bottom: black 1px solid;
+    width: 100%;
+    height: 30px;
+}
+
+#contaImg{
+    height: 100%;
+    width: 60%;
+}
+.final{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+}
+.final h5{
+    color:rgb(228, 63, 63);
+    text-align: right;
+}
