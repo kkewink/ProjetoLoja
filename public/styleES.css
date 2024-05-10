@@ -32,11 +32,6 @@
     display: flex;
     justify-content: center;
     padding-top: 60px;
-    margin-right: 80px;
-}
-
-.container img{
-    margin-right: 85px;
 }
 
 .conta{
@@ -89,14 +84,6 @@
     text-align: right;
 }
 
-.span {
-    color:rgb(228, 63, 63);
-}
-
-.span a{
-    color:rgb(228, 63, 63);
-}
-.p {
-    text-align: center;
-    margin: 5px 0;
+.conta h1{
+    width: 100%;
 }
