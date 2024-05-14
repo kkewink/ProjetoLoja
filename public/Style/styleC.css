@@ -1,3 +1,4 @@
+/* STYLE DO TOPO DA PAGINA*/
 *{
     padding: 0px;
     margin: 0px;
@@ -28,34 +29,40 @@
     font: bolder;
 }
 
+
+
+/* CONTAINER QUE GUARDA A CRIAÇÂO DA CONTA*/ 
 .container{
     display: flex;
-    justify-content: center;
+    width: 500px;
     padding-top: 60px;
+    margin-right: 80px;
+    width: 100%;
+    margin: 0px auto;
 }
+
 
 .conta{
     width: 20%;
     font-weight: bolder;
     margin-top: 150px;
 }
-
 .conta button{
-    width: 30%;
+    width: 100%;
     border: none;
     height: 50px;
-    border-radius: 5px;
 }
-#butao{
+#criar{
     background-color: rgb(228, 63, 63);
     color:white;
     border: none;
+    border-radius: 5px;
 }
-#butao:hover{
+#criar:hover{
     cursor: pointer;
     color:white;
 }
-#butao a{
+#criar a{
     text-decoration: none;
     color:white;
 }
@@ -78,17 +85,53 @@
     justify-content: space-between;
 }
 
-.final{
-    display: flex;
-    text-align: right;
+#contaImg img{
     justify-content: space-between;
-    align-items: center;
-}
-.final h5{
-    color:rgb(228, 63, 63);
-    text-align: right;
+    margin-left: 60px;
+    height: 600px;
+    width:700px;
 }
 
-.conta h1{
+
+/*STYLE DO RODA PÉ DA PAGINA*/
+
+.rodape{
+    color: white;
+    background-color: black;
     width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.profileRodaPe{
+    margin-top: 100px;
+    width: 25%;
+    height: 60%;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.profileRodaPe input{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    height: 30px;
+}
+.profileRodaPe a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape img{
+    width: 80%;
+}
+
+#cabo{
+    background-color: black;
+    color: #313131;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
 }

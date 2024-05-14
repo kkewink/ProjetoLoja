@@ -1,4 +1,3 @@
-/* STYLE DO TOPO DA PAGINA*/
 *{
     padding: 0px;
     margin: 0px;
@@ -29,9 +28,6 @@
     font: bolder;
 }
 
-
-
-/* CONTAINER QUE GUARDA A CRIAÇÂO DA CONTA*/ 
 .container{
     display: flex;
     width: 500px;
@@ -41,57 +37,76 @@
     margin: 0px auto;
 }
 
+.container img{
+    margin-right: 85px;
+}
 
-.conta{
+.login{
     width: 20%;
     font-weight: bolder;
     margin-top: 150px;
+    margin-left: 100px;
 }
-.conta button{
-    width: 100%;
+.login button{
+    width: 30%;
     border: none;
     height: 50px;
+    border-radius: 5px;
 }
-#criar{
+#butao{
     background-color: rgb(228, 63, 63);
     color:white;
     border: none;
-    border-radius: 5px;
 }
-#criar:hover{
+#butao:hover{
     cursor: pointer;
     color:white;
 }
-#criar a{
+#butao a{
     text-decoration: none;
     color:white;
 }
 
-.conta a{
+.login a{
     text-decoration: none;
     color: #000;
 }
-.conta input {
+.login input {
     border: none;
     border-bottom: black 1px solid;
     width: 100%;
     height: 30px;
 }
 
-#contaImg{
-    height: 50%;
-    width: 60%;
-    padding-left: 0px;
-    justify-content: space-between;
-}
-
-#contaImg img{
+img{
     justify-content: space-between;
     margin-left: 60px;
     height: 600px;
     width:700px;
 }
 
+.final{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    align-items: center;
+}
+.final h5{
+    color:rgb(228, 63, 63);
+    text-align: right;
+}
+
+.spanF {
+    color:rgb(228, 63, 63);
+}
+
+.spanF a{
+    color:rgb(228, 63, 63);
+}
+.pFinal {
+    text-align: center;
+    margin: 5px 0;
+}
 
 /*STYLE DO RODA PÉ DA PAGINA*/
 
@@ -99,17 +114,16 @@
     color: white;
     background-color: black;
     width: 100%;
-    height: 700px;
+    height: 600px;
     display: flex;
-    
 }
 
 .profileRodaPe{
     margin-top: 100px;
-    width: 100%;
-    height: 80%;
+    width: 25%;
+    height: 60%;
     font-size: 12px;
-    
+    margin-left: 30px;
 }
 .profileRodaPe input{
     background-color: black;
@@ -117,9 +131,13 @@
     border: 1px white solid;
     height: 30px;
 }
+.profileRodaPe a{
+    text-decoration: none;
+    color: white;
+}
 
-.rodape hr{
-    background-color: white;
+.rodape img{
+    width: 80%;
 }
 
 #cabo{
