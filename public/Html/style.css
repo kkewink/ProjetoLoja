@@ -1,0 +1,152 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav a + a::before {
+    content: '/';
+    margin: 0 5px;
+}
+
+.welcome-message {
+    font-weight: bold;
+}
+
+.welcome-message .username {
+    color: red;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    width: 250px;
+    margin-right: 20px;
+}
+
+.sidebar-section {
+    margin-bottom: 20px;
+}
+
+.sidebar-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar-section ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar-section ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar-section ul li.active a {
+    color: red;
+    font-weight: bold;
+}
+
+.profile-edit {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-edit h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #e40046;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.form-group_campos input{
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 20px;
+
+}
+
+.form-group input[disabled] {
+    background-color: #eee;
+}
+
+.form-row {
+    display: flex;  
+    justify-content: space-between;
+    gap: 10px; 
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.cancel-button,
+.save-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    color: #000;
+}
+
+.save-button {
+    background-color: #e40046;
+    color: #fff;
+}
