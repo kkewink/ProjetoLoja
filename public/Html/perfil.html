@@ -29,7 +29,10 @@
     </header>
     <hr>
     
-    <p class="pagina"><a href="home.html"><span>Home /</span> </a><a href="perfil.html"> Minha Conta</a></p>
+    <div class="topo">
+        <p class="pagina"><a href="home.html"><span>Home /</span> </a><a href="perfil.html"> Minha Conta</a></p>
+        <p class="paginaD"><a href="home.html"><span>Bem Vindo</span> </a><a id="nomeUsuario" href="perfil.html"> Ex:Ernesto</a></p>
+    </div>
 
 
     <div class="containerPai">
@@ -49,11 +52,51 @@
                 <h1>Minha Lista de Desejos</h1>
             </ul>
         </div>
-    
+        
         <div class="container2">
-            <h1>Editar Seu Perfil</h1>
+            
+            <form action="">
+                <h1>Editar Seu Perfil</h1><br><br><br><br>
+                <div class="separar1">
+                    <label for="Pnome">Primeiro Nome</label>
+                    <input type="text" id="Pnome" >
+                    <br>
+                    <label for="Snome">Sobrenome</label>
+                    
+                    <input type="text" id="Snome" >
+            <br>
+            
+                    <label for="email">Email</label>
     
+                    <input type="text" id="email" >
+    
+                    <label for="address">Endereço</label>
+                    <input type="text" id="address" >
+                </div>
+                
+                <br><br>
+                <div class="separar2">
+                    <label for="passworld">Trocar senha</label>
+                    <br>
+                    <input type="text" id="passworld" placeholder="Senha Atual" >
+                    <br>
+                    <input type="text" id="Ns" placeholder="Nova Senha">
+                    <br>
+                    <input type="text" id="Cs" placeholder="Confirmar Senha">
+                </div>
+                
+                <br><br><br><br><br>
+                <div class="baixo">
+                    <button>Cancel</button>
+                    <button id="baixoCor">Salvar Mudanças</button>
+                </div>
+                
+            </form>
+            
         </div>
+        
+
+
     </div>
     
 
