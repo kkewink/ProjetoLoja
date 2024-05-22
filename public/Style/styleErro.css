@@ -28,6 +28,18 @@
     text-transform: uppercase;
     font: bolder;
 }
+
+.pagina{
+    padding: 150px;
+}
+
+.pagina a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+
 /* STYLE DO ERRO*/
 
 .container{
@@ -47,16 +59,17 @@
 }
 .container h1{
     margin-top: 200px;
-    font-size: 80px;
+    font-size: 180px;
 }
 
 #butao{
     background-color: rgb(228, 63, 63);
     color:white;
     border: none;
-    width: 300px;
-    height: 50px;
+    width: 400px;
+    height: 80px;
     border-radius: 3px;
+    font-size: 20px;
 }
 #butao:hover{
     cursor: pointer;
@@ -73,9 +86,9 @@
 }
 
 
-.pagina a{
-    text-decoration: none;
-    color: black;
+
+.container p{
+    font-size: 22px;
 }
 span{
     color: gray;

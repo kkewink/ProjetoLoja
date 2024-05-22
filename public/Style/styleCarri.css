@@ -14,7 +14,7 @@
 .cabecalho h1{
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
 }
 
@@ -31,79 +31,63 @@
 
 
 
-/* CONTAINER QUE GUARDA A CRIAÇÂO DA CONTA*/ 
+.topo{
+    
+    display: flex;
+    padding: 120px;
+    font-size: 24px;
+}
+
+.pagina{
+    font-weight: bold;
+    font-size: 24px;
+    width: 50%;
+}
+.pagina a{
+    text-decoration: none;
+    color: black;
+}
+
+#home{
+    color: #313131;
+}
+
+/*AREA DO CARRINHO*/
+
 .container{
     display: flex;
-    width: 1305px;
-    padding-top: 60px;
-    padding-right: 80px;
+    padding: 120px;
+    background-color: bisque;
     width: 100%;
+    height: 300px;
 }
 
-
-.conta{
-    width: 20%;
-    margin-top: 150px;
-    padding-right: 20px;
-}
-.conta h1{
-    font-size: 50px;
-}
-.conta h3{
-    font-size: 25px;
-}
-
-.conta button{
+.linhaConteudo{
+    background-color: aliceblue;
+    display: flex;
     width: 100%;
-    border: none;
-    font-size: 20px;
-    height: 60px;
+    height: 100px;
+    align-items: center;
+    float: left;
 }
-#criar{
-    background-color: rgb(228, 63, 63);
-    color:white;
-    border: none;
-    border-radius: 5px;
+.linhaConteudo h1{
+    margin-left: 200px;
+    margin-right: 400px;
+
 }
 
-#login{
-    border-bottom: 1px black solid;
+.linhaConteudo img{
+    height: 50px;
+    width: 50px;
 }
 
-#conta{
-    text-align: center;
-}
-#criar:hover{
-    cursor: pointer;
-    color:white;
-}
-#criar a{
-    text-decoration: none;
-    color:white;
-}
-
-.conta a{
-    text-decoration: none;
-    color: #000;
-}
-.conta input {
-    border: none;
-    border-bottom: black 1px solid;
-    width: 100%;
+.linhaConteudo input{
+    margin-left: 200px;
+    margin-right: 400px;
+    height: 40px;
+    width: 70px;
     font-size: 20px;
 }
-
-.container img{
-    margin-left: 60px;
-    height: 1100px;
-    width:1310px;
-}
-
-.contaImg{
-    width: 60%;
-}
-
-
 
 /*STYLE DO RODA PÉ DA PAGINA*/
 

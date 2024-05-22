@@ -29,18 +29,19 @@
     font: bolder;
 }
 
+.topo{
+  display: flex;
+  padding: 50px;
+  font-size: 20px;
+}
+
+
 .pagina a{
     text-decoration: none;
     color: black;
 }
 .pagina span{
     color: gray;
-}
-
-.topo{
-    display: flex;
-    padding: 50px;
-    font-size: 14px;
 }
 
 .pagina{
@@ -69,7 +70,7 @@
   justify-content: center;
   width: 100%;
   height: 700px;
-
+  font-size: 24px;
 }
 
 .container1{
@@ -91,12 +92,23 @@
   margin-left: 40px;
 }
 
+.container1 h1{
+  font-size: 28px;
+}
 .container1 ul li {
   padding: 7px;
 }
 
 .container1 li{
   color: #828282;
+}
+.container1 a{
+  text-decoration: none;
+  color: #828282;
+}
+.container1 h1 a{
+  text-decoration: none;
+  color: #313131;
 }
 
 
@@ -119,6 +131,8 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 700px;
+  width: 1000px;
 }
 
 .profile-edit h1 {
@@ -167,12 +181,20 @@
   flex: 1;
 }
 
+.form-group_campos input{
+  margin-right: 20px;
+}
+
 .form-actions {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
 }
 
+.form-actions button{
+  font-size: 20px;
+  height: 60px;
+}
 .cancel-button,
 .save-button {
   border: none;
@@ -189,15 +211,16 @@
   color: black;
 }
 
-.save-button {
+.save-button{
   color: white;
   background-color: rgb(228, 63, 63);
 }
 
-.cancel-button,
+.cancel-button ,
 .save-button button:hover{
   cursor: pointer;
 }
+
 
 /*STYLE DO RODA PÉ DA PAGINA*/
 
