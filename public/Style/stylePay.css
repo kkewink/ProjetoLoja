@@ -1,0 +1,229 @@
+/* STYLE DO TOPO DA PAGINA*/
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Nanum Gothic", sans-serif;
+}
+
+
+.cabecalho{
+    text-align: center;
+}
+
+.cabecalho h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+.cabecalho a{
+    text-decoration: none;
+    color: white;
+}
+
+#titulo{
+    text-transform: uppercase;
+    font: bolder;
+}
+
+
+.topo{
+    display: flex;
+    padding: 120px;
+    font-size: 14px;
+    width: 50%;
+}
+
+.pagina{
+    font-weight: bold;
+    font-size: 16px;
+}
+.pagina a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    margin: 5px;
+}
+#home{
+    color: #666666;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding: 120px;
+}
+
+/*AREA DO FORMULARIO*/
+
+.formulario{
+    width: 50%;
+    text-align: left;
+    height: 814px;
+}
+
+.formulario h1{
+    font-size: 40px;
+}
+
+.formulario input {
+    width: 75%;
+    height: 45px;
+    margin-top: 5px;
+    background-color: #F5F5F5;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 16px;
+}
+
+.formulario label{
+    color: #7D8184;
+}
+.formulario span{
+    padding: 0px;
+    margin: 0px;
+    color: rgb(255, 124, 124);
+}
+
+.container .check  {
+    height: 16px;
+    width: 16px;
+    margin-right: 5px;
+    padding-top:25px;
+    margin-left: 80px;
+    cursor: pointer;
+    }
+.container #span{
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*AREA DO PAGAMENTO*/
+.methodPay{
+    float: left;
+    padding: 120px;
+    width: 50%;
+    height: 600px;
+    background-color: blanchedalmond;
+}
+
+
+.linhaConteudo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    text-align: left;
+    border: 4px black solid ;
+}
+
+
+
+#nomeP{
+    width: 100%;
+    text-align: center;
+}
+
+.methodPay h2{
+    width: 25%;
+    font-size: 14px;
+    text-align: center;
+}
+
+.imagem, .preco{
+    width: 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image {
+    display: flex;
+    align-items: center;
+}
+.image h2{
+    margin-left: 15px;
+}
+
+.image img {
+    width: 80px;
+    height: 80px;
+}
+
+
+.pay h3{
+    font-size: 14px;
+}
+
+.bag{
+    float: right;
+}
+
+.pay input {
+    border-radius: 10000px;
+}
+
+
+
+.form-group .bag{
+    float: right;
+}
+
+
+#float{
+    float:right;
+}
+
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    padding-left: 10px;
+    cursor: pointer;
+}
+.form-group p{
+    margin-left: 340px;
+}
+
+.radio{
+    cursor: pointer;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+}
+
+
+.radio:before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 0);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.radio:checked:before {
+    opacity: 1;
+}
+
