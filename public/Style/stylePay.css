@@ -57,6 +57,7 @@ span{
     height: 600px;
     display: flex;
     padding: 120px;
+    padding-top: 50px;
 }
 
 /*AREA DO FORMULARIO*/
@@ -101,7 +102,7 @@ span{
     }
 .container #span{
     color: black;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     cursor: pointer;
 }
@@ -112,7 +113,6 @@ span{
     padding: 120px;
     width: 50%;
     height: 600px;
-    background-color: blanchedalmond;
 }
 
 
@@ -123,7 +123,6 @@ span{
     height: 100px;
     align-items: center;
     text-align: left;
-    border: 4px black solid ;
 }
 
 
@@ -168,35 +167,65 @@ span{
 .bag{
     float: right;
 }
+.bag img{
+    width: 180px;
+}
 
 .pay input {
     border-radius: 10000px;
 }
 
 
-
-.form-group .bag{
-    float: right;
+.ultimo{
+    width: 100%;
+    display: flex;
 }
 
-
-#float{
-    float:right;
+.cupom{
+    width:100% ;
+    height: 100%;
 }
 
+.cupom input{
+    font-size: 16px;
+    border: 1px black solid;
+    width: 325px;
+    height: 45px;
+    outline: none;
+    border-radius: 0px;
+
+}
+
+.cupom button{
+    color: white;
+    width: 215px;
+    height: 55px;
+    background-color: rgb(228, 63, 63);
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.cupom input, button{
+    text-align: center;
+}
+
+.cupom #space{
+    margin-top: 5px;
+}
 
 .form-group {
     display: flex;
     margin-bottom: 15px;
+    width: 50%;
 }
 
 .form-group label {
     padding-left: 10px;
     cursor: pointer;
 }
-.form-group p{
-    margin-left: 340px;
-}
+
 
 .radio{
     cursor: pointer;
@@ -219,7 +248,7 @@ span{
     width: 10px;
     height: 10px;
     background: rgb(0, 0, 0);
-    border-radius: 50%;
+   border-radius: 50%; 
     opacity: 0;
 }
 
@@ -227,3 +256,45 @@ span{
     opacity: 1;
 }
 
+/*STYLE DO RODA PÉ DA PAGINA*/
+
+.rodape{
+    color: white;
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.profileRodaPe{
+    margin-top: 100px;
+    width: 25%;
+    height: 60%;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.profileRodaPe input{
+    background-color: black;
+    color: white;
+    border: 1px white solid;
+    height: 30px;
+}
+.profileRodaPe a{
+    text-decoration: none;
+    color: white;
+}
+
+.rodape img{
+    width: 80%;
+}
+
+#cabo{
+    background-color: black;
+    color: #313131;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
