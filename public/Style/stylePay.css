@@ -97,7 +97,6 @@ span{
     width: 16px;
     margin-right: 5px;
     padding-top:25px;
-    margin-left: 80px;
     cursor: pointer;
     }
 .container #span{
@@ -190,7 +189,7 @@ span{
     font-size: 16px;
     border: 1px black solid;
     width: 325px;
-    height: 45px;
+    height: 55px;
     outline: none;
     border-radius: 0px;
 

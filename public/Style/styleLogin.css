@@ -1,3 +1,4 @@
+/* STYLE DO TOPO DA PAGINA*/
 *{
     padding: 0px;
     margin: 0px;
@@ -13,7 +14,7 @@
 .cabecalho h1{
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -28,44 +29,49 @@
     font: bolder;
 }
 
+/*AREA DO LOGIN*/
 .container{
     display: flex;
-    width: 1305px;
     padding-top: 60px;
     margin-right: 80px;
     width: 100%;
 }
 
 .container img{
-    margin-right: 305px;
+    height: 781px;
+    width: 824px;
+}
+.loginImg{
+    width: 60%;
 }
 
 .login{
-
     width: 20%;
     margin-top: 150px;
     padding-right: 20px;
 }
 
 .login h1{
-    font-size: 50px;
+    font-size: 36px;
 }
 .login h3{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 
 .login button{
     width: 30%;
     border: none;
-    height: 50px;
-    border-radius: 5px;
-    font-size: 20px;
+    height: 40px;
+    border-radius: 2px;
+    font-size: 17px;
 }
+
 #butao{
     background-color: rgb(228, 63, 63);
     color:white;
     border: none;
+    border-radius: 5px;
 }
 #butao:hover{
     cursor: pointer;
@@ -82,15 +88,13 @@
 }
 .login input {
     border: none;
-    border-bottom: black 1px solid;
+    outline: none;
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
 }
-
-img{
-    margin-left: 60px;
-    height: 1100px;
-    width:1310px;
+#space{
+    border-bottom: black 1px solid;
+    margin-top: 5px;
 }
 
 .final{
@@ -106,7 +110,7 @@ img{
 
 .spanF {
     color:rgb(228, 63, 63);
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .spanF a{

@@ -14,7 +14,7 @@
 .cabecalho h1{
     background-color: black;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-align: center;
 }
 
@@ -31,13 +31,20 @@
 
 
 
-/* CONTAINER QUE GUARDA A CRIAÇÂO DA CONTA*/ 
+/* AREA DA CRIAÇÂO DE CONTA*/ 
 .container{
     display: flex;
-    width: 1305px;
     padding-top: 60px;
     padding-right: 80px;
     width: 100%;
+}
+.container img{
+    height: 781px;
+    width: 824;
+}
+
+.contaImg{
+    width: 60%;
 }
 
 
@@ -47,23 +54,23 @@
     padding-right: 20px;
 }
 .conta h1{
-    font-size: 50px;
+    font-size: 36px;
 }
 .conta h3{
-    font-size: 25px;
+    font-size: 16px;
 }
 
 .conta button{
     width: 100%;
     border: none;
-    font-size: 20px;
-    height: 60px;
+    font-size: 17px;
+    height: 40px;
 }
 #criar{
     background-color: rgb(228, 63, 63);
     color:white;
     border: none;
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
 #login{
@@ -88,20 +95,12 @@
 }
 .conta input {
     border: none;
+    outline: none;
     border-bottom: black 1px solid;
     width: 100%;
-    font-size: 20px;
+    font-size: 17px;
 }
 
-.container img{
-    margin-left: 60px;
-    height: 1100px;
-    width:1310px;
-}
-
-.contaImg{
-    width: 60%;
-}
 
 
 

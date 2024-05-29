@@ -33,18 +33,21 @@
 
 .topo{
     display: flex;
-    padding: 50px;
-    font-size: 30px;
+    padding: 150px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+    font-size: 20px;
 }
 
 .nomeLista{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     width: 50%;
+    cursor: pointer;
 }
 
 .nomeLista img{
-    height: 60px;
+    height: 40px;
 }
 
 .bag button{
@@ -60,7 +63,6 @@
 }
 .bag button:hover{
     cursor: pointer;
-    color: rgb(228, 63, 63);
 }
 .bag{
     width: 50%;
@@ -91,7 +93,9 @@
 /*LISTA DE FAVORITOS*/
 
 .container{
-    padding: 50px;
+    padding: 150px;
+    padding-bottom: 0px;
+    padding-top: 100px;
     width: 100%;
     height: 550px;
     text-align: left;
@@ -107,7 +111,7 @@
 }
 
 .card h3{
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .card p{
@@ -117,16 +121,16 @@
 }
 
 .card img{
-    height: 440px;
-    width: 440px;
+    height: 250px;
+    width: 270px;
 }
 
 #pn{
-    font-size: 25px;
+    font-size: 16px;
     color: rgb(228, 63, 63);
 }
 #pd{
-    font-size: 22px;
+    font-size: 16px;
     color: #acacac;
 }
 
