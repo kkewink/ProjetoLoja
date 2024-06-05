@@ -139,6 +139,10 @@ margin-top: 40px;
     font-size: 14px;
     width: 50%;
 }
+body{
+    font-family: "Nanum Gothic", sans-serif;
+}
+
 
 .pagina{
     font-weight: bold;

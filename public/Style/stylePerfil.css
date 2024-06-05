@@ -42,8 +42,8 @@ header h6{
 
 /* style.css */
 :root {
-  --font-family: "Nanum Gothic", sans-serif;
-  --font-size: 11px;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 11px;
   --header-height: 50px;
 }
 
@@ -53,6 +53,10 @@ header h6{
   box-sizing: border-box;
   font-family: var(--font-family);
   font-size: var(--font-size);
+}
+
+body{
+  font-family: "Nanum Gothic", sans-serif;
 }
 
 header {
@@ -70,11 +74,6 @@ header {
   padding: 20px;
 }
 
-.menu h1 {
-  font-size: 40px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-right: 30px;
-}
 
 .menu ul {
   list-style: none;

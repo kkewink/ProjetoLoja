@@ -6,6 +6,11 @@ header{
   align-items: center;
 }
 
+body{
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+
 header h6{
   text-align: center;
   color: white;
