@@ -139,6 +139,79 @@ margin-top: 40px;
 }
 
 
+/* CONTAINER QUE GUARDA A CRIAÇÂO DA CONTA*/
+.container{
+  display: flex;
+  width: 1305px;
+  padding-top: 60px;
+  padding-right: 80px;
+  width: 100%;
+}
+
+
+.conta{
+  width: 20%;
+  margin-top: 150px;
+  padding-right: 20px;
+}
+.conta h1{
+  font-size: 50px;
+}
+.conta h3{
+  font-size: 25px;
+}
+
+.conta button{
+  width: 100%;
+  border: none;
+  font-size: 20px;
+  height: 60px;
+}
+#criar{
+  background-color: rgb(228, 63, 63);
+  color:white;
+  border: none;
+  border-radius: 5px;
+}
+
+#login{
+  border-bottom: 1px black solid;
+}
+
+#conta{
+  text-align: center;
+}
+#criar:hover{
+  cursor: pointer;
+  color:white;
+}
+#criar a{
+  text-decoration: none;
+  color:white;
+}
+
+.conta a{
+  text-decoration: none;
+  color: #000;
+}
+.conta input {
+  border: none;
+  border-bottom: black 1px solid;
+  width: 100%;
+  font-size: 20px;
+}
+
+.container img{
+  margin-left: 60px;
+  height: 1100px;
+  width:1310px;
+}
+
+.contaImg{
+  width: 60%;
+}
+
+
 
 /* AREA DA CRIAÇÂO DE CONTA*/ 
 .rodape img{
